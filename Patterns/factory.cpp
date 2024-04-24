@@ -2,9 +2,10 @@
 #include <string>
 
 // Product Interface
-class Shape {
+// Abstract class
+class Shape {  
 public:
-   virtual void draw() = 0;
+   virtual void draw() = 0; 
 };
 
 // Concrete Products
